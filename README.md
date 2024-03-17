@@ -31,8 +31,4 @@ Los contratos podrían mejorar técnicamente mediante la optimización del gas u
 4. Desplegar en una red pública (Ethereum, Polygon, etc.).
 5. Verificar el código en el explorador de bloques.
 
-## Enlaces
 
-- ERC721 Contract: [Ejemplo de Enlace](https://etherscan.io/address/0x...)
-- ERC1155 Contract: [Ejemplo de Enlace](https://etherscan.io/address/0x...)
-- NFTStaking Contract: [Ejemplo de Enlace](https://etherscan.io/address/0x...)
