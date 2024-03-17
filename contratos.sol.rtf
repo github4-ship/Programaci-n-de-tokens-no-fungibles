@@ -1,0 +1,57 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract DataRegistry {
+    uint256 public numericData;
+    string public textData;
+    bool public boolData;
+
+    event NumericDataUpdated(uint256 newValue);
+    event TextDataUpdated(string newText);
+    event BoolDataUpdated(bool newValue);
+
+    function setNumericData(uint256 _value) public {
+        numericData = _value;
+        emit NumericDataUpdated(_value);
+    }
+
+    function getNumericData() public view returns (uint256) {
+        return numericData;
+    }
+
+    function setTextData(string memory _value) public {
+        textData = _value;
+        emit TextDataUpdated(_value);
+    }
+
+    function getTextData() public view returns (string memory) {
+        return textData;
+    }
+
+    function setBoolData(bool _value) public {
+        boolData = _value;
+        emit BoolDataUpdated(_value);
+    }
+
+    function getBoolData() public view returns (bool) {
+        return boolData;
+    }
+}
+
+// ERC721.sol
+// Implementación básica del estándar ERC-721
+contract ERC721 {
+    // Declaración de eventos, funciones y otras variables del estándar ERC721
+}
+
+// ERC1155.sol
+// Implementación básica del estándar ERC-1155
+contract ERC1155 {
+    // Declaración de eventos, funciones y otras variables del estándar ERC1155
+}
+
+// NFTStake.sol
+// Contrato para el staking de NFTs
+contract NFTStake {
+    // Declaración de variables y funciones relacionadas con el staking de NFTs
+}
